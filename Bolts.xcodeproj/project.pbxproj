@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BC597362387FA8900CAC052 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BC597352387FA8900CAC052 /* WebKit.framework */; };
+		0BC597372387FAE800CAC052 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BC597312387F81D00CAC052 /* WebKit.framework */; };
+		0BC597382387FB0700CAC052 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BC597312387F81D00CAC052 /* WebKit.framework */; };
+		0BC597392387FB6C00CAC052 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BC597312387F81D00CAC052 /* WebKit.framework */; };
 		1D5D7DA81BE3CE8200FD67C7 /* BFURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103FA6519900A84000BAE3F /* BFURL.m */; };
 		1D5D7DA91BE3CE8200FD67C7 /* BFTaskCompletionSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103FA5319900A84000BAE3F /* BFTaskCompletionSource.m */; };
 		1D5D7DAA1BE3CE8200FD67C7 /* BFAppLinkTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103FA6319900A84000BAE3F /* BFAppLinkTarget.m */; };
@@ -217,6 +221,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BC597312387F81D00CAC052 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		0BC597352387FA8900CAC052 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
 		1D5D7DD31BE3CE8200FD67C7 /* Bolts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Bolts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E9BF8DB18EA0CAD00514B1E /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
 		1EC3016018CDAA8400D06D07 /* BoltsTestUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoltsTestUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -317,6 +323,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BC597382387FB0700CAC052 /* WebKit.framework in Frameworks */,
 				1D5D7DB81BE3CE8200FD67C7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -327,6 +334,7 @@
 			files = (
 				81D0EE7D19AFA8260000AE75 /* UIKit.framework in Frameworks */,
 				1EC3016318CDAA8400D06D07 /* CoreGraphics.framework in Frameworks */,
+				0BC597362387FA8900CAC052 /* WebKit.framework in Frameworks */,
 				1EC3016118CDAA8400D06D07 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,6 +367,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BC597372387FAE800CAC052 /* WebKit.framework in Frameworks */,
 				81ED941B1BE147CF00795F05 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,6 +376,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BC597392387FB6C00CAC052 /* WebKit.framework in Frameworks */,
 				818ADC6C1BE1A80F00C8006C /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -606,6 +616,8 @@
 		8E9C3CEB17DE9DE000427E62 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0BC597312387F81D00CAC052 /* WebKit.framework */,
+				0BC597352387FA8900CAC052 /* WebKit.framework */,
 				81D0EE7C19AFA8260000AE75 /* UIKit.framework */,
 				8E9C3CEC17DE9DE000427E62 /* Foundation.framework */,
 				8E9C3CFB17DE9DE000427E62 /* SenTestingKit.framework */,
@@ -982,6 +994,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 8E9C3CE017DE9DE000427E62;
